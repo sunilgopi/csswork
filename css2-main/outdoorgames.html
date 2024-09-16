@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td img {
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        td img:hover {
+            transform: scale(1.05);
+        }
+
+        iframe {
+            border-radius: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="./home.html">Home</a>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Sport Name</th>
+                <th>Number of Players</th>
+                <th>Image</th>
+                <th>Video</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Basketball</td>
+                <td>5</td>
+                <td><img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/ef694d9b-8d0b-4d92-9a6c-dbdf5db61071/nike-basketball.jpg" alt="Basketball" width="200" height="200"></td>
+                <td><iframe width="200" height="200" src="https://www.youtube.com/embed/GD3vr9hQ940?si=wTtPWOPS1aWGqFzB" title="Basketball Video" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cricket</td>
+                <td>11</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4sP1UpigdGUAliT-2xLy0cTUh6RzVshQ5TA&s" alt="Cricket" width="200" height="200"></td>
+                <td><iframe width="200" height="200" src="https://www.youtube.com/embed/BD608IJ3aCE?si=ByJv-wd-2vMgPYha" title="Cricket Video" allowfullscreen></iframe></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        a {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        details {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            padding: 15px;
+            width: 80%;
+            text-align: left;
+            transition: box-shadow 0.3s ease;
+        }
+
+        details summary {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        details[open] {
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        details p {
+            font-size: 16px;
+            color: #666;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            details {
+                width: 95%;
+            }
+
+            details summary {
+                font-size: 16px;
+            }
+
+            details p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="./home.html">Home</a>
+
+    <details>
+        <summary>How many players play in one basketball team?</summary>
+        <p>Five members</p>
+    </details>
+
+    <details>
+        <summary>Time duration for a basketball match</summary>
+        <p>48 minutes</p>
+    </details>
+
+    <details>
+        <summary>How many players are in one cricket team?</summary>
+        <p>11 members</p>
+    </details>
+
+</body>
+
+</html>

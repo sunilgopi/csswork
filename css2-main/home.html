@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #00ced1;
+            padding: 20px;
+            color: white;
+        }
+
+        header h4 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00ced1;
+        }
+
+        .image-marquee {
+            margin: 30px 0;
+        }
+
+        .image-marquee a img {
+            border-radius: 50%;
+            border: 5px solid #00ced1;
+            transition: transform 0.3s ease;
+        }
+
+        .image-marquee a img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #32cd32;
+            color: white;
+            padding: 15px 0;
+            font-size: 16px;
+        }
+
+        footer pre {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h4>Sports</h4>
+        <nav>
+            <a href="./outdoorgames.html">Outdoor Games</a>
+            <a href="./indoorgames.html">Indoor Games</a>
+            <a href="./summary.html">Q&A</a>
+        </nav>
+    </header>
+
+    <div class="image-marquee">
+        <marquee direction="right" scrollamount="15" behavior="alternate">
+            <a href="./outdoorgames.html">
+                <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/ef694d9b-8d0b-4d92-9a6c-dbdf5db61071/nike-basketball.jpg" width="150" height="150" alt="Outdoor Games">
+            </a>
+        </marquee>
+    </div>
+
+    <div class="image-marquee">
+        <marquee direction="left" scrollamount="15" behavior="alternate">
+            <a href="./indoorgames.html">
+                <img src="./cc.jpg" width="150" height="150" alt="Indoor Games">
+            </a>
+        </marquee>
+    </div>
+
+    <footer>
+        <pre>Contact Number | Email | Address</pre>
+    </footer>
+
+</body>
+
+</html>
